@@ -1,0 +1,7 @@
+E:\course_work\CW\MyTests\obj\Debug\MyTests.csprojResolveAssemblyReference.cache
+E:\course_work\CW\MyTests\bin\Debug\MyTests.dll
+E:\course_work\CW\MyTests\bin\Debug\MyTests.pdb
+E:\course_work\CW\MyTests\bin\Debug\CW.exe
+E:\course_work\CW\MyTests\bin\Debug\CW.pdb
+E:\course_work\CW\MyTests\obj\Debug\MyTests.dll
+E:\course_work\CW\MyTests\obj\Debug\MyTests.pdb

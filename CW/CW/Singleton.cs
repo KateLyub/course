@@ -9,10 +9,15 @@ namespace CW
     public class Singleton
     {
         private static Singleton instance;
-        public static Singleton Instance
+
+        private Singleton()
+        { }
+
+        public static Singleton GetInstance()
         {
-            get { return instance ?? (instance = new Singleton()); }
+            if (instance == null)
+                instance = new Singleton();
+            return instance;
         }
-        protected Singleton() { }
     }
 }

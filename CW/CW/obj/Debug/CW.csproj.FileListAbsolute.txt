@@ -1,1 +1,6 @@
 E:\course_work\CW\CW\bin\Debug\CW.exe.config
+E:\course_work\CW\CW\obj\Debug\CW.csprojResolveAssemblyReference.cache
+E:\course_work\CW\CW\bin\Debug\CW.exe
+E:\course_work\CW\CW\bin\Debug\CW.pdb
+E:\course_work\CW\CW\obj\Debug\CW.exe
+E:\course_work\CW\CW\obj\Debug\CW.pdb
