@@ -15,5 +15,16 @@ namespace MyTests
 
             Assert.AreSame(m, w);
         }
+
+        [TestMethod]
+        public void CheckInherits()
+        {
+            Man mm = new Man();
+            Woman ww = new Woman();
+
+            Assert.IsInstanceOfType(ww, typeof(Wo_Man));
+            Assert.IsInstanceOfType(mm, typeof(Wo_Man));
+        }
+
     }
 }
