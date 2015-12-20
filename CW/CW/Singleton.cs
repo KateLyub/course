@@ -16,5 +16,20 @@ namespace CW
         {
             return single;
         }
+
+        public virtual void Walking(Wo_Man wm)
+        {
+            Console.WriteLine("Ходит как человек.");
+        }
+
+        public virtual void Eating(Wo_Man wm)
+        {
+            Console.WriteLine("Ест как человек.");
+        }
+
+        public virtual void Dressing(Wo_Man wm)
+        {
+            Console.WriteLine("Одевается как человек.");
+        }
     }
 }
