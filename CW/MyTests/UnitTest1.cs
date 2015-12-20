@@ -26,5 +26,15 @@ namespace MyTests
             Assert.IsInstanceOfType(mm, typeof(Wo_Man));
         }
 
+        [TestMethod]
+        public void CheckGender()
+        {
+            Man mm = new Man();
+            Woman ww = new Woman();
+
+            Assert.IsNotNull(mm);
+            Assert.IsNotNull(ww);
+        }
+
     }
 }
