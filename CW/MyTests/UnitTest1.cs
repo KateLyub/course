@@ -7,9 +7,9 @@ namespace MyTests
     [TestClass]
     public class HumanTest
     {
+        [TestMethod]
         public void CheckTypeSingleton()
         {
-
             Singleton w = Singleton.GetInstance();
             Singleton m = Singleton.GetInstance();
 
