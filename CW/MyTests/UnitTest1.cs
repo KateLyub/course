@@ -22,7 +22,7 @@ namespace MyTests
             Man mm = new Man();
             Woman ww = new Woman();
 
-            Assert.IsInstanceOfType(ww, typeof(Wo_Man));
+            //Assert.IsInstanceOfType(ww, typeof(Wo_Man));
             Assert.IsInstanceOfType(mm, typeof(Wo_Man));
         }
 
@@ -34,6 +34,18 @@ namespace MyTests
 
             Assert.IsNotNull(mm);
             Assert.IsNotNull(ww);
+        }
+
+        [TestMethod]
+        public void CheckTypeAfterAdapter()
+        {
+            Singleton w = new Adapter();
+            Singleton m = new Adapter();
+
+            w = Singleton.GetInstance();
+            m = Singleton.GetInstance();
+
+            Assert.AreSame(m, w);
         }
 
     }
